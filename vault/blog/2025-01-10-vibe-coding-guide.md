@@ -4,7 +4,7 @@ excerpt: "Вайб-кодинг превращает идеи в работаю�
 category: "Практика"
 publishedAt: "2025-01-10"
 readingTime: 9
-image: "/blog/placeholder.webp"
+image: "a7c10129-a212-4b3e-6ea3-8830a026b500"
 tags:
   - Vibe Coding
   - Claude Code
