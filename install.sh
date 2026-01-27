@@ -167,7 +167,7 @@ install_claude() {
 clone_repo() {
     if [[ -d "$INSTALL_DIR" ]]; then
         warn "Directory $INSTALL_DIR already exists"
-        read -p "Overwrite? (y/n): " -n 1 -r
+        read -p "Overwrite? (y/n): " -n 1 -r < /dev/tty
         echo
         if [[ $REPLY =~ ^[Yy]$ ]]; then
             rm -rf "$INSTALL_DIR"
@@ -199,10 +199,10 @@ prompt_token() {
     echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
     if [[ "$optional" == "true" ]]; then
-        read -p "Enter token (or press Enter to skip): " token
+        read -p "Enter token (or press Enter to skip): " token < /dev/tty
     else
         while true; do
-            read -p "Enter token: " token
+            read -p "Enter token: " token < /dev/tty
             if [[ -n "$token" ]]; then
                 break
             fi
@@ -364,7 +364,7 @@ auth_claude() {
 #######################################
 setup_autostart() {
     echo
-    read -p "Configure autostart (bot runs when computer starts)? (y/n): " -n 1 -r
+    read -p "Configure autostart (bot runs when computer starts)? (y/n): " -n 1 -r < /dev/tty
     echo
 
     if [[ ! $REPLY =~ ^[Yy]$ ]]; then
@@ -485,7 +485,7 @@ start_bot() {
         echo
         echo -e "  ${GREEN}cd $INSTALL_DIR && uv run python -m d_brain${NC}"
         echo
-        read -p "Start bot now? (y/n): " -n 1 -r
+        read -p "Start bot now? (y/n): " -n 1 -r < /dev/tty
         echo
         if [[ $REPLY =~ ^[Yy]$ ]]; then
             cd "$INSTALL_DIR"
