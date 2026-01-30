@@ -971,7 +971,11 @@ claude auth login
 **Session Persistence (JSONL):**
 - Все взаимодействия сохраняются в `vault/sessions/YYYY-MM-DD.jsonl`
 - Append-only формат для надёжности
-- Методы API: `append()`, `get_today()`, `get_recent()`, `get_stats()`
+
+**Разрешения Claude:**
+```bash
+cp .claude/settings.local.example.json .claude/settings.local.json
+```
 
 ### Полезные команды
 
