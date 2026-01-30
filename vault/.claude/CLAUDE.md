@@ -90,6 +90,7 @@ Run daily processing via `/process` command or automatically at 21:00.
 |-------|---------|
 | `dbrain-processor` | Main daily processing |
 | `todoist-ai` | Task management via MCP |
+| `graph-builder` | Vault link analysis and building |
 
 ## Available Agents
 
@@ -151,6 +152,7 @@ Reports use Telegram HTML:
 | `/weekly` | Generate weekly digest |
 | `/align` | Check goal alignment |
 | `/organize` | Organize vault |
+| `/graph` | Analyze vault links |
 
 ## /do Command Context
 
@@ -189,7 +191,23 @@ When invoked via /do, Claude receives arbitrary user requests. Common patterns:
 
 For personal overrides: create `CLAUDE.local.md`
 
+## Graph Builder
+
+Analyze and maintain vault link structure. Use `/graph` command or invoke `graph-builder` skill.
+
+**Commands:**
+- `/graph analyze` — Full vault statistics
+- `/graph orphans` — List unconnected notes
+- `/graph suggest` — Get link suggestions
+- `/graph add` — Apply suggested links
+
+**Scripts:**
+- `uv run .claude/skills/graph-builder/scripts/analyze.py` — Graph analysis
+- `uv run .claude/skills/graph-builder/scripts/add_links.py` — Link suggestions
+
+See `skills/graph-builder/` for full documentation.
+
 ---
 
-*System Version: 2.1*
-*Updated: 2026-01-27*
+*System Version: 2.2*
+*Updated: 2026-01-30*
