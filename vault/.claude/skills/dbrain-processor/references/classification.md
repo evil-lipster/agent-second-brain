@@ -2,14 +2,12 @@
 
 ## Work Domains → Categories
 
-Based on user's work context (see [ABOUT.md](ABOUT.md)):
+### Operational Excellence
+Автоматизация процессов, стандарты, инструкции, регламенты, KPI, расчёты, операционная эффективность
 
-### Client Work
-Брифы, стратегии, креатив, кампании, KPI, предложения
+**Keywords:** процесс, автоматизация, регламент, стандарт, инструкция, KPI, расчёт, эффективность, оптимизация, метрика
 
-**Keywords:** [Client A], [Client B], [Client C], клиент, бриф, презентация, дедлайн, KPI
-
-**→ Category:** task (p1-p2) → Todoist
+**→ Category:** task (p1-p2) или project → Google Tasks
 
 ### AI & Tech
 Инструменты, модели, промпты, пайплайны, агенты
@@ -19,86 +17,88 @@ Based on user's work context (see [ABOUT.md](ABOUT.md)):
 **→ Category:** learning или project → thoughts/
 
 ### Product
-Идеи, гипотезы, MVP, юнит-экономика
+Идеи, гипотезы, MVP, юнит-экономика, монетизация
 
-**Keywords:** продукт, SaaS, MVP, гипотеза, монетизация, юнит-экономика, стартап
+**Keywords:** продукт, SaaS, MVP, гипотеза, монетизация, юнит-экономика, портфель
 
 **→ Category:** idea или project → thoughts/
 
-### Company Ops
-Команда, процессы, автоматизация, найм, управление, финансы
+### Agency Ops & Culture
+Команда, процессы, найм, управление, финансы, корпоративная культура, ценности, среда
 
-**Keywords:** команда, найм, процесс, HR, финансы, [Your Business], агентство
+**Keywords:** команда, найм, HR, финансы, Wunder Digital, агентство, культура, ценности, атмосфера, онбординг, Алеся, Даша, Мария, Олжас, Степан, Лизавета, Олеся, Дима, Макс
 
 **→ Category:** task или project (depends on urgency)
 
 ### Content
-Посты, идеи, тезисы для Telegram и LinkedIn
+Посты, идеи, тезисы для Telegram и LinkedIn, выступления
 
-**Keywords:** пост, @yourbrand, LinkedIn, контент, тезис, статья
+**Keywords:** пост, LinkedIn, контент, тезис, статья, выступление, Web Summit
 
 **→ Category:** idea → thoughts/ideas/ или task если с дедлайном
+
+### Cultural Insights
+Антропологические наблюдения, культурные паттерны, искусство, история, связи между эпохами
+
+**Keywords:** культура, антропология, паттерн, история, искусство, опера, балет, наблюдение, инсайт, цивилизация
+
+**→ Category:** reflection → thoughts/reflections/
 
 ---
 
 ## Decision Tree
-
 ```
 Entry text contains...
 │
-├─ Client brand or deadline? ────────────────────> TASK (p1-p2)
-│  ([Client A], [Client B], клиент, дедлайн, презентация)
+├─ Operational/urgent? ──────────────────────────> TASK (p1-p2)
+│  (нужно сделать, дедлайн, не забыть, регламент готов)
 │
-├─ Operational/urgent? ──────────────────────────> TASK (p2-p3)
-│  (нужно сделать, не забыть, позвонить, встреча)
+├─ Process/standard to build? ───────────────────> PROJECT
+│  (автоматизировать, стандартизировать, выстроить)
 │
 ├─ AI/tech learning? ────────────────────────────> LEARNING
-│  (узнал, модель, агент, интеграция)
+│  (узнал, модель, агент, интеграция, попробовала)
 │
 ├─ Product/SaaS idea? ───────────────────────────> IDEA или PROJECT
-│  (продукт, MVP, гипотеза, SaaS)
+│  (продукт, MVP, гипотеза, SaaS, портфель, монетизация)
 │
 ├─ Strategic thinking? ──────────────────────────> PROJECT
-│  (стратегия, план, R&D, долгосрочно)
+│  (стратегия, план, R&D, долгосрочно, equity)
+│
+├─ Culture/team observation? ────────────────────> TASK или REFLECTION
+│  (команда, культура, атмосфера, паттерн поведения)
+│
+├─ Cultural/anthropological insight? ────────────> REFLECTION
+│  (наблюдение, связь эпох, искусство, антропология)
 │
 ├─ Personal insight? ────────────────────────────> REFLECTION
 │  (понял, осознал, философия)
 │
 └─ Content idea? ────────────────────────────────> IDEA
-   (пост, тезис, контент)
+   (пост, тезис, контент, выступление)
 ```
 
 ---
 
-## Business Client Detection
-
-Entry mentions a known client (see business-context.md)?
-
-```
-├─ + deadline/urgency? → TASK (p1-p2) + client label
-├─ + статус ("отправили КП", "выиграли")? → TASK + flag for CRM note
-├─ + встреча/звонок? → TASK (p2) + [[client]] link
-└─ просто упоминание? → Add [[client]] link only
-```
-
-### CRM Status Keywords (для информации в отчёте)
+## Status Keywords (для заметок и отчётов)
 
 | Keywords | Интерпретация |
 |----------|---------------|
-| "подписали", "выиграли", "получили" | Позитивный исход |
-| "отказали", "проиграли", "не пошли" | Негативный исход |
-| "отправили КП", "подали" | В процессе |
-| "ждём ответ", "на рассмотрении" | Ожидание |
+| "внедрили", "запустили", "заработало" | Готово |
+| "в процессе", "тестируем", "пилот" | В работе |
+| "идея", "гипотеза", "надо проверить" | Бэклог |
+| "застряло", "не работает", "блокер" | Требует внимания |
+| "отменили", "не пошло", "закрыли" | Закрыто |
 
 ---
 
 ## Apply Decision Filters
 
 Перед сохранением спроси:
-- Это масштабируется?
+- Это масштабируется на агентство?
 - Это можно автоматизировать?
-- Это усиливает экспертизу или бренд?
-- Это приближает к продукту или SaaS?
+- Это усиливает операционную эффективность?
+- Это приближает к продукту или equity?
 
 Если да на 2+ вопроса → повысить приоритет.
 
@@ -106,12 +106,11 @@ Entry mentions a known client (see business-context.md)?
 
 ## Photo Entries
 
-For `[photo]` entries:
-
 1. Analyze image content via vision
 2. Determine domain:
-   - Screenshot клиентского материала → Client Work
-   - Схема/диаграмма → AI & Tech или Product
+   - Схема процесса / регламент → Operational Excellence
+   - Схема/диаграмма продукта → Product
+   - Арт, культура, впечатление → Cultural Insights
    - Текст/статья → Learning
 3. Add description to daily file
 
@@ -121,9 +120,10 @@ For `[photo]` entries:
 
 | Category | Destination | Priority |
 |----------|-------------|----------|
-| task (client) | Todoist | p1-p2 |
-| task (ops) | Todoist | p2-p3 |
-| task (content) | Todoist | p3-p4 |
+| task (ops) | Google Tasks | p1-p2 |
+| task (culture/team) | Google Tasks | p2-p3 |
+| task (content) | Google Tasks | p3-p4 |
+| meeting/event | Google Calendar | — |
 | idea | thoughts/ideas/ | — |
 | reflection | thoughts/reflections/ | — |
 | project | thoughts/projects/ | — |
@@ -132,29 +132,18 @@ For `[photo]` entries:
 ---
 
 ## File Naming
-
 ```
 thoughts/{category}/{YYYY-MM-DD}-short-title.md
-```
-
-Examples:
-```
-thoughts/ideas/2024-12-16-saas-pricing-model.md
-thoughts/projects/2024-12-16-ai-agents-pipeline.md
-thoughts/learnings/2024-12-16-claude-mcp-setup.md
 ```
 
 ---
 
 ## Thought Structure
-
-Use preferred format:
-
 ```markdown
 ---
 date: {YYYY-MM-DD}
 type: {category}
-domain: {Client Work|AI & Tech|Product|Agency Ops|Content}
+domain: {Operational Excellence|AI & Tech|Product|Agency Ops & Culture|Content|Cultural Insights}
 tags: [tag1, tag2]
 ---
 
@@ -165,7 +154,7 @@ tags: [tag1, tag2]
 [Ключевая идея]
 
 ## Implication
-[Что это значит для [Your Business]/продукта/стратегии]
+[Что это значит для Wunder Digital / продукта / стратегии]
 
 ## Next Action
 [Конкретный шаг — не абстрактный]
@@ -175,11 +164,9 @@ tags: [tag1, tag2]
 
 ## Anti-Patterns (ИЗБЕГАТЬ)
 
-При создании мыслей НЕ делать:
 - Абстрактные рассуждения без Next Action
-- Академическая теория без применения к [Your Business]/продукту
-- Повторы без синтеза (кластеризуй похожие!)
-- Хаотичные списки без приоритетов
+- Теория без применения к Wunder Digital
+- Повторы без синтеза
 - Задачи типа "подумать о..." (конкретизируй!)
 
 ---
@@ -189,13 +176,4 @@ tags: [tag1, tag2]
 After creating thought file, add link to:
 ```
 MOC/MOC-{category}s.md
-```
-
-Group by domain when relevant:
-```markdown
-## AI & Tech
-- [[2024-12-16-claude-mcp-setup]] - MCP integration
-
-## Product
-- [[2024-12-16-saas-pricing-model]] - Pricing research
 ```

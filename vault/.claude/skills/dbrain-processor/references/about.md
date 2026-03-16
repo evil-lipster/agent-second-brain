@@ -1,28 +1,36 @@
-# About [Your Name]
+# About Hanna Lipskaya
 
 ## Who I Am
-[Your Name], [age]. [Your role/title] at [Your Company].
+Hanna Lipskaya, 38. Product Director (in progress) at Wunder Digital, Warszawa.
 
 ## What I Do
-- [Main business activity]
-- [Side projects/interests]
+- Трансформирую агентство через продукты с собственной экономикой
+- Строю операционное превосходство в digital-маркетинге
+- Запускаю продукты с целью выхода на equity-партнёрство
 
 ## My Team
 | Name | Role |
 |------|------|
-| [Your Name] | [Your Role] |
-| [Team Member] | [Their Role] |
+| Hanna Lipskaya | Product Director |
+| Алеся Черник | Head of SMM |
+| Даша Маханова | Head of SEO |
+| Мария Корнаушкина | Head of Strategy |
+| Олжас Кушербаев | Head of PPC |
+| Степан Молчан | Innovation Strategist |
+| Лизавета Елиневич | Partnership Manager |
+| Олеся Шевчук | DSP Ad Ops |
+| Дима Григорьев | CBDO |
+| Макс Пархимович | CEO группы |
 
 ## Working Style
-- Timezone: [Your Timezone]
-- Working hours: [Your preferred hours]
-- Languages: [Your languages]
+- Timezone: CET (Warsaw)
+- Languages: Russian, English
 
 ## Values
-- [Value 1]
-- [Value 2]
-- [Value 3]
+- Операционное превосходство как конкурентное преимущество
+- Технологии как усилитель, не костыль
+- Гравитация вместо публичности
 
-## Key Clients/Projects
-- [Client/Project 1] — [Brief description]
-- [Client/Project 2] — [Brief description]
+## Key Projects
+- Продуктовый портфель агентства — 3 продукта к монетизации в 2026
+- Переход от роли к equity-партнёрству
