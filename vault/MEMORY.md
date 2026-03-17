@@ -1,75 +1,34 @@
-# Long-term Memory
+# Memory — Hanna Lipskaya
 
-Curated knowledge that persists across sessions. Part of the 3-layer memory architecture (hot context → searchable vault → archive). See `.claude/skills/agent-memory/SKILL.md` for details.
+## Decision Making
+Принимает решения исключительно быстро — топ 5% по скорости. Паттерны доведены до автоматизма. Комфортно с высокой неопределённостью — строит гипотезу и действует. Легко реконсилирует новые вводные, не держится за принятые решения.
 
-## User Profile
+Видит риски раньше других и нейтрализует до того как стали проблемой — но хочет отталкиваться от возможности, а не от угрозы. Это внутреннее напряжение — помнить про него.
 
-| Field | Value |
-|-------|-------|
-| Name | [Your name] |
-| Timezone | [Your timezone, e.g., UTC+5] |
-| Location | [City/Country] |
-| Primary language | [e.g., Russian/English] |
+Если два варианта оба плохие — не выбирать ни один. Искать третий который реально работает.
 
-## Preferences
+## Leadership Style
+Управляет через культуру, а не через процессы. Фокус — формулировать культурные принципы из которых процессы и практики вытекают естественно.
 
-### Tech Stack
-- Languages: [e.g., Python, TypeScript]
-- Frameworks: [e.g., React, FastAPI]
-- Tools: [e.g., Cursor, Claude Code]
+Даёт направление через стратегические цели, политики и ценностные фреймворки. Ожидает автономии + регулярного алайнмента. Формат синков: движение к целям, что помогает/мешает, открытые/закрытые вопросы, личное развитие. Выборочный контроль процессов — не микроменеджмент. Тревога = сигнал что человек не алайнится.
 
-### Communication Style
-- Preferred response language: [Russian/English/Mixed]
-- Detail level: [Brief/Detailed]
-- Code comments: [Minimal/Verbose]
+## Energy Drains
+- Переговоры с людьми другой скорости и уровня сомнения
+- Демагогия вместо решений
+- Объяснение базовых вещей людям без ценности инновации
+- Битвы за лидерство там где оно очевидно
 
-### Habits
-- Morning routine: [if relevant]
-- Work hours: [e.g., 10:00-19:00]
-- Planning cadence: [weekly/daily]
+## Emotional Support Style
+Когда злится или негодует — не обесценивать и не менсплейнить. Валидировать: "да, они думают медленнее, это реально тяжело". Иногда нужен прямой ашуранс: ты всё делаешь правильно, просто у людей другая скорость — это не враги, это другой темп. Напоминать об этом когда нужно.
 
-## Key Decisions
+## Communication Preferences
+- Прямо, быстро, по делу
+- Факты → выводы → действия
+- Высокая скорость обмена информацией
+- Без менсплейнинга и обесценивания эмоций
 
-| Date | Decision | Context |
-|------|----------|---------|
-| YYYY-MM-DD | Example: Use uv instead of pip | Better dependency management |
-
-## Active Context
-
-### ONE Big Thing (This Week)
-<!-- From goals/3-weekly.md -->
-- [ ] [Current week's main focus]
-
-### Hot Projects
-1. [Project name] — [status/next action]
-
-### Pipeline/Leads
-<!-- If applicable -->
-- [Lead name] — [status]
-
-## Key People
-
-| Name | Role | Contact | Notes |
-|------|------|---------|-------|
-| [Name] | [Role] | [Telegram/Email] | [Context] |
-
-## Learnings
-
-### What Worked
-- [Pattern/approach that was successful]
-
-### What Didn't Work
-- [Anti-pattern to avoid]
-
-### Rules to Remember
-- [Important rule discovered during work]
-
-## Quick Links
-
-- [[goals/3-weekly]] — Weekly focus
-- [[goals/2-monthly]] — Monthly priorities
-- [[MOC/index]] — Maps of Content
-
----
-
-*Last updated: YYYY-MM-DD*
+## Work Context
+- Роль: Product Director (in progress), Wunder Digital, Варшава
+- Офис: 100+ человек, в прямом подчинении 9 (все директора направлений)
+- Фокус: операционное превосходство, эффективность процессов, себестоимость работы, автоматизация
+- Языки: русский, английский, польский (A2, в процессе)
