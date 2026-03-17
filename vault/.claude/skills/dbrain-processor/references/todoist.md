@@ -101,7 +101,7 @@ mcp-cli call google-calendar list-events '{"timeMin": "today", "timeMax": "in 7 
 | На этой неделе | friday |
 | На следующей неделе | next monday |
 | Стратегия/R&D | in 7 days |
-| Не указано | in 3 days |
+| Не указано | friday |
 
 ### Russian → due
 
